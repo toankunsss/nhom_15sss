@@ -1,0 +1,201 @@
+footer{
+
+    display: flex;
+    width: 100vw;
+    align-items: center;    justify-content: center;
+    background-color: #3D0505;
+}
+.noidung{
+    display: block;
+    padding-top:1.25rem;
+    padding-left: 2.375rem;
+    position: relative;
+}
+footer .noidung .logo{
+    width: 14rem;
+    height: 4.75rem;
+}
+ /* footer grid started */
+footer .grid{
+    display: flex;
+    align-items: center;
+    width: 85.3125rem;
+    justify-content: space-between;
+    margin-bottom: 2.7rem;
+    margin-top: 6.25rem;
+}
+/* colum1 started */
+.colum1{
+    display: block;
+    width: 32.4375rem;
+    text-align: left;
+    height: 8.5rem;
+    color: #fff;
+    font-weight: 400;
+
+}
+.dong1{
+    font-weight: 700;
+}
+/* colum1 started end */
+
+/* colum2 started */
+.colum2{
+    display: flex;
+    height: 8.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.25rem;
+
+}
+.lienhe1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lienhe1 a{
+    color: #ECBE26;
+    font-weight: 700;
+}
+.lienhe{
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+    color: #fff;
+}
+.sdt{
+    font-size: 1rem;
+}
+/* comlum2 end */
+/* colum3 started */
+.colum3{
+    display: flex;
+    width: 23.0625rem;
+    height: 8.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    margin-left: 10rem;
+}
+.colum3 a{
+    text-transform: uppercase;
+    color: #ECBE26;
+    font-weight: 700;
+}
+.colum3 li{
+    text-transform: uppercase;
+}
+/* colum3 end */
+.line{
+    display: block;
+    width: 90%;
+    position: absolute;
+    border-bottom:0.16rem solid #ECBE26;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* dong cuoi started */
+.dongcuoi{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.4rem;
+
+}
+.icon_footer{
+    display: flex;
+    color:#fff ;
+    width: 32.4375rem;
+    gap: 3rem;
+}
+.year_product{
+    width: 15.0625rem;
+    color: #fff;
+
+}
+.baohanh{
+    width: 23.0625rem;
+    margin-left: 10rem;
+
+}
+/* dongcuoi end */
+
+/* media queries */
+@media(max-width:1629px){
+    html{
+        font-size: 81%;
+    }
+}
+@media(max-width:1449px){
+    html{
+        font-size: 72%;
+    }
+}
+@media(max-width:991px){
+    html{
+        font-size: 53%;
+    }
+
+}
+@media(max-width:768px){
+    html{
+        font-size: 50%;
+    }
+    .noidung{
+        padding-left: 0;
+    }
+    footer .noidung .logo{
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer .grid{
+        display: block;
+        width: 100vw;
+    }
+    .lienhe1{
+        justify-content: center;
+        width: 100vw;
+        gap: 5rem;
+    }
+    .lienhe{
+        width: 100vw;
+        justify-content: center;
+    }
+    .colum1{
+        text-align: center;
+        width: 100vw;
+    }
+    .colum2{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        justify-content: center;
+        
+    }
+    .colum3{
+        margin-left: 0;
+        width: 100vw;
+        text-align: center;
+    }
+    .dongcuoi{
+        display: block;
+    }
+    .icon_footer{
+        justify-content: center;
+        width: 100%;
+    }
+    .year_product{
+        text-align: center;
+        width: 100vw;
+    }
+    .baohanh{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        margin-left: 0;
+    }
+    .line{
+        width: 100vw;
+    }
+
+}
